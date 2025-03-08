@@ -32,9 +32,9 @@ const Lee = () => {
       },
     });
 
-    // Automatically click the filter button for '.filter-love-story'
+    // Automatically click the filter button for '.filter-category-1'
     const clickFilterDefault = () => {
-      const filterDefaultButton = document.querySelector('[data-filter=".filter-love-story"]');
+      const filterDefaultButton = document.querySelector('[data-filter=".filter-category-1"]');
       if (filterDefaultButton) {
         filterDefaultButton.click();
       }
@@ -74,12 +74,6 @@ const Lee = () => {
     }
   };
 
-  // Helper function to determine if an item is a video based on its file extension
-  // const isVideo = (src) => {
-  //   const videoExtensions = ['.mp4', '.webm', '.ogg'];
-  //   return videoExtensions.some((ext) => src.endsWith(ext));
-  // };
-
   return (
     <>
       {/* Lee Section */}
@@ -89,13 +83,13 @@ const Lee = () => {
           <h2>The Lee Family</h2>
         </div>
         <div className="container">
-          <div className="isotope-layout" data-default-filter=".filter-love-story" data-layout="masonry" data-sort="original-order">
+          <div className="isotope-layout" data-default-filter=".filter-category-1" data-layout="masonry" data-sort="original-order">
             <ul className="gallery-filters isotope-filters sticky-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter=".filter-grandpa" onClick={() => handleFilterClick('.filter-grandpa')}>Grandpa</li>
-              <li data-filter=".filter-phil" onClick={() => handleFilterClick('.filter-phil')}>Phil</li>
-              <li data-filter=".filter-andy" onClick={() => handleFilterClick('.filter-andy')}>Andy</li>
-              <li data-filter=".filter-love-story" onClick={() => handleFilterClick('.filter-love-story')} className="filter-active">Love Story</li>
-              <li data-filter=".filter-1st-birthday" onClick={() => handleFilterClick('.filter-1st-birthday')}>1st Birthday</li>
+              <li data-filter=".filter-category-1" onClick={() => handleFilterClick('.filter-category-1')} className="filter-active">category 1</li>
+              <li data-filter=".filter-category-2" onClick={() => handleFilterClick('.filter-category-2')}>category 2</li>
+              <li data-filter=".filter-category-3" onClick={() => handleFilterClick('.filter-category-3')}>category 3</li>
+              <li data-filter=".filter-category-3" onClick={() => handleFilterClick('.filter-category-3')}>category 4</li>
+              <li data-filter=".filter-category-3" onClick={() => handleFilterClick('.filter-category-3')}>category 5</li>
             </ul>
             <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
               {leeItems.map((item, index) => (

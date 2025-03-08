@@ -845,6 +845,12 @@ section,
     }
   }
 
+  .carousel-item.transparent-20 {
+    &::before {
+      background: color-mix(in srgb, var(--background-color), transparent 20%);
+    }
+  }
+
   .carousel-item.transparent-40 {
     &::before {
       background: color-mix(in srgb, var(--background-color), transparent 40%);

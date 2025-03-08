@@ -11,40 +11,46 @@ const Home = () => {
 
   const carouselItems = [
     {
-      background: '/assets/images/hero-carousel/lee-01.jpg',
+      background: '/assets/images/hero-carousel/lee.family-01.jpg',
       title: 'The Lee Family',
       text: 'Celebrating the Lee Family Legacy',
       bgStyle: 'transparent-40',
+      type: 'image',
     },
     {
-      background: '/assets/images/hero-carousel/grandma-01.jpg',
+      background: '/assets/images/hero-carousel/grandparents-01.mp4',
       title: 'Grand Parents',
       text: 'Forever in Our Hearts',
-      bgStyle: 'transparent-40',
+      bgStyle: 'transparent-90',
+      type: 'video',
     },
     {
       background: '/assets/images/hero-carousel/jin-01.jpg',
       title: 'The Jin Family',
       text: 'A Family of Love and Support',
-      bgStyle: 'transparent-60',
+      bgStyle: 'transparent-80',
+      type: 'image',
+    },
+    {
+      background: '/assets/images/hero-carousel/lee-01.jpg',
+      title: 'The Lee Family',
+      text: 'Deeply Rooted in Love',
+      bgStyle: 'transparent-40',
+      type: 'image',
     },
     {
       background: '/assets/images/hero-carousel/song-01.jpg',
       title: 'The Song Family',
       text: 'California Memories',
       bgStyle: 'transparent-90',
+      type: 'image',
     },
     {
-      background: '/assets/images/hero-carousel/ivan-01.jpg',
+      background: '/assets/images/hero-carousel/kim-01.jpg',
       title: 'The Kim Family',
-      text: 'The Man, The Myth, The Dad',
-      bgStyle: 'transparent-40',
-    },
-    {
-      background: '/assets/images/hero-carousel/phil-andy-01.jpg',
-      title: 'Phil & Andy',
-      text: 'The Dynamic Duo',
-      bgStyle: 'transparent-40',
+      text: 'Embracing Warmth and Joy',
+      bgStyle: 'transparent-90',
+      type: 'image',
     },
   ];
 
@@ -55,7 +61,14 @@ const Home = () => {
           {carouselItems.map((item, index) => (
             <Carousel.Item key={index} className={item.bgStyle}>
               <div className="carousel-container">
-                <img src={item.background} alt="" data-aos="fade-in" />
+                {item.type === 'video' ? (
+                  <video autoPlay loop muted playsInline className="carousel-video">
+                    <source src={item.background} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                ) : (
+                  <img src={item.background} alt={item.title} data-aos="fade-in" />
+                )}
                 <div className={`container text-center ${animate ? 'zoom-out' : ''}`}>
                   <div className="row justify-content-center">
                     <div className="col-lg-8">
