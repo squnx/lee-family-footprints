@@ -1088,12 +1088,21 @@ section,
   }
 
   .reflections-bg {
+    // position: absolute;
+    // inset: 0;
+    // display: block;
+    // width: 100%;
+    // height: 100%;
+    // object-fit: cover;
+    // z-index: 1;
+
     position: absolute;
-    inset: 0;
-    display: block;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top; /* Ensures the top part of the image is visible */
     z-index: 1;
   }
 

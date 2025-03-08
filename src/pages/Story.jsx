@@ -35,7 +35,7 @@ const Story = () => {
       </section>
 
       <section id="reflections" className="reflections section">
-        <img src="/assets/images/our-story/bg-reflections.jpg" className="reflections-bg" alt="" />
+        <img src="/assets/images/our-story/bg-reflections.jpg" className="reflections-bg" />
         <div className="container section-title" data-aos="fade-up">
           <h2>Family Reflections</h2>
           <p>Cherishing the moments that define us.</p>
