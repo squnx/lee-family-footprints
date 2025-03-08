@@ -58,7 +58,7 @@ const Story = () => {
           >
             <SwiperSlide>
               <div className="col-lg-8 mx-auto reflection-item">
-                <img src="/assets/images/our-story/terri-140x140.jpg" className="reflection-img" />
+                <img src="/assets/images/our-story/grandpa-360x360.jpg" className="reflection-img" />
                 <h3>이기현</h3>
                 <h4>할아버지</h4>
                 <p style={{ wordBreak: 'keep-all' }}>
@@ -70,19 +70,19 @@ const Story = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="col-lg-8 mx-auto reflection-item">
-                <img src="/assets/images/our-story/terri-140x140.jpg" className="reflection-img" />
+                <img src="/assets/images/our-story/grandma-360x360.jpg" className="reflection-img" />
                 <h3>김남주</h3>
                 <h4>할머니</h4>
                 <p style={{ wordBreak: 'keep-all' }}>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  <span>우리 할머니는 인생의 지혜와 강인함을 모두 갖춘 분입니다. 어려운 시절을 겪으면서도 꿋꿋하게 가족을 지켜오셨고, 항상 올바른 길을 제시해주시는 분입니다. 할머니의 경험에서 우러나오는 조언은 우리 삶의 나침반과 같습니다.</span>
+                  <span>우리 할머니는 인생의 지혜를 갖추신 분입니다. 어려운 시절을 겪으면서도 꿋꿋하게 가족을 지켜오셨고, 항상 올바른 길을 제시해주시는 분입니다. 할머니의 경험에서 우러나오는 조언은 우리 삶의 나침반과 같습니다.</span>
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="col-lg-8 mx-auto reflection-item">
-                <img src="/assets/images/our-story/terri-140x140.jpg" className="reflection-img" />
+                <img src="/assets/images/our-story/kyungsoo-600x600.jpg" className="reflection-img" />
                 <h3>이경수</h3>
                 <h4>딸 (첫째)</h4>
                 <p style={{ wordBreak: 'keep-all' }}>
@@ -94,7 +94,7 @@ const Story = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="col-lg-8 mx-auto reflection-item">
-                <img src="/assets/images/our-story/terri-140x140.jpg" className="reflection-img" />
+                <img src="/assets/images/our-story/jinho-360x360.jpg" className="reflection-img" />
                 <h3>이진호</h3>
                 <h4>아들 (둘째)</h4>
                 <p style={{ wordBreak: 'keep-all' }}>
@@ -106,7 +106,7 @@ const Story = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="col-lg-8 mx-auto reflection-item">
-                <img src="/assets/images/our-story/terri-140x140.jpg" className="reflection-img" />
+                <img src="/assets/images/our-story/terri-360x360.jpg" className="reflection-img" />
                 <h3>이경아</h3>
                 <h4>딸 (세째)</h4>
                 <p style={{ wordBreak: 'keep-all' }}>
@@ -118,7 +118,7 @@ const Story = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="col-lg-8 mx-auto reflection-item">
-                <img src="/assets/images/our-story/terri-140x140.jpg" className="reflection-img" />
+                <img src="/assets/images/our-story/jinah-300x300.jpg" className="reflection-img" />
                 <h3>이진아</h3>
                 <h4>딸 (네째)</h4>
                 <p style={{ wordBreak: 'keep-all' }}>
