@@ -46,7 +46,7 @@ const Story = () => {
             speed={600}
             centeredSlides={true}
             autoplay={{
-              delay: 5000,
+              delay: 7000,
               disableOnInteraction: false,
             }}
             pagination={{
