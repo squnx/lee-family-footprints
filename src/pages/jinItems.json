@@ -250,6 +250,14 @@
     "filter": "filter-golf"
   },
   {
+    "src": "https://www.youtube.com/watch?v=U7JHjcTpPO4",
+    "title": "SeaWorld's Shamu show",
+    "description": "January 2025",
+    "gallery": "jin-usa",
+    "filter": "filter-usa",
+    "type": "video"
+  },
+  {
     "src": "/assets/images/jin/usa/2025.01-san.diego-01.jpg",
     "title": "SeaWorld San Diego",
     "description": "January 2025",
@@ -696,6 +704,14 @@
     "description": "January 2025",
     "gallery": "jin-usa",
     "filter": "filter-usa"
+  },
+  {
+    "src": "https://www.youtube.com/watch?v=SJ36Eq9pZVg",
+    "title": "Entering Bryce's Realm",
+    "description": "January 2025",
+    "gallery": "jin-usa",
+    "filter": "filter-usa",
+    "type": "video"
   },
   {
     "src": "/assets/images/jin/usa/2025.01-bryce.canyon-01.jpg",

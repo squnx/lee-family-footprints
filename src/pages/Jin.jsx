@@ -79,6 +79,10 @@ const Jin = () => {
   //   const videoExtensions = ['.mp4', '.webm', '.ogg'];
   //   return videoExtensions.some((ext) => src.endsWith(ext));
   // };
+  const getYouTubeVideoId = (url) => {
+    const match = url.match(/[?&]v=([^&]+)/);
+    return match ? match[1] : null;
+  };
 
   return (
     <>
@@ -98,72 +102,70 @@ const Jin = () => {
               <li data-filter=".filter-category-3" onClick={() => handleFilterClick('.filter-category-3')}>category 3</li>
             </ul>
             <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-              {jinItems.map((item, index) => (
-                <div key={index} className={`col-lg-3 col-md-4 col-sm-6 gallery-item isotope-item ${item.filter}`}>
-                  {/* Hover effect #1 */}
-                  <div className="gallery-wrap">
-                    {item.type === 'video' ? (
-                      <div className="video-container">
-                        {/* GLightbox video link with autoplay */}
-                        <a
-                          href={item.src}
-                          data-gallery={item.gallery}
-                          className="glightbox"
-                          title={item.title}
-                          data-type="video"
-                          data-autoplay="true"
-                        >
-                          <video width="100%" controls playsinline>
-                            <source src={item.src} type="video/mp4" />
-                            <source src={item.src.replace('.mp4', '.webm')} type="video/webm" />
-                            Your browser does not support the video tag.
-                          </video>
-                        </a>
-                        <div className="gallery-info">
-                          <h4>{item.title}</h4>
-                          <p>{item.description}</p>
-                          <div className="gallery-links">
-                            <a href={item.src} data-gallery={item.gallery} className="glightbox" title={item.title}><i className="bi bi-play-circle-fill"></i></a>
+              {jinItems.map((item, index) => {
+                const isYouTubeVideo = item.src.includes('youtube.com');
+                const videoId = isYouTubeVideo ? getYouTubeVideoId(item.src) : null;
+                const thumbnailUrl = videoId ? `https://img.youtube.com/vi/${videoId}/0.jpg` : null;
+
+                return (
+                  <div key={index} className={`col-lg-3 col-md-4 col-sm-6 gallery-item isotope-item ${item.filter}`}>
+                    <div className="gallery-wrap">
+                      {item.type === 'video' ? (
+                        <div className="video-container">
+                          <a
+                            href={item.src}
+                            data-gallery={item.gallery}
+                            className="glightbox"
+                            title={item.title}
+                            data-type="video"
+                            data-autoplay="true"
+                          >
+                            {isYouTubeVideo ? (
+                              <LazyLoadImage
+                                src={thumbnailUrl}
+                                alt={item.title}
+                                effect="blur"
+                                className="img-fluid"
+                                onLoad={handleImageLoad}
+                              />
+                            ) : (
+                              <video width="100%" controls playsinline>
+                                <source src={item.src} type="video/mp4" />
+                                <source src={item.src.replace('.mp4', '.webm')} type="video/webm" />
+                                Your browser does not support the video tag.
+                              </video>
+                            )}
+                          </a>
+                          <div className="gallery-info">
+                            <h4>{item.title}</h4>
+                            <p>{item.description}</p>
+                            <div className="gallery-links">
+                              <a href={item.src} data-gallery={item.gallery} className="glightbox" title={item.title}><i className="bi bi-play-circle-fill"></i></a>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    ) : (
-                      <div className="image-container">
-                        <LazyLoadImage
-                          src={item.src}
-                          alt={item.title}
-                          effect="blur"
-                          className="img-fluid"
-                          onLoad={handleImageLoad}  // Trigger Isotope layout after image is loaded
-                        />
-                        <div className="gallery-info">
-                          <h4>{item.title}</h4>
-                          <p>{item.description}</p>
-                          <div className="gallery-links">
-                            <a href={item.src} data-gallery={item.gallery} className="glightbox" title={item.title}><i className="bi bi-zoom-in"></i></a>
+                      ) : (
+                        <div className="image-container">
+                          <LazyLoadImage
+                            src={item.src}
+                            alt={item.title}
+                            effect="blur"
+                            className="img-fluid"
+                            onLoad={handleImageLoad}
+                          />
+                          <div className="gallery-info">
+                            <h4>{item.title}</h4>
+                            <p>{item.description}</p>
+                            <div className="gallery-links">
+                              <a href={item.src} data-gallery={item.gallery} className="glightbox" title={item.title}><i className="bi bi-zoom-in"></i></a>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    )}
+                      )}
+                    </div>
                   </div>
-
-                  {/* Hover effect #2 */}
-                  {/* <LazyLoadImage
-                    src={item.src}
-                    alt={item.title}
-                    // placeholderSrc={item.placeholderSrc} // Placeholder image for blur effect
-                    effect="blur"
-                    className="img-fluid"
-                    onLoad={handleImageLoad}  // Trigger Isotope layout after image is loaded
-                  />
-                  <div className="gallery-info">
-                    <h4>{item.title}</h4>
-                    <p>{item.description}</p>
-                    <a href={item.src} title={item.title} data-gallery={item.gallery} className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
-                  </div> */}
-
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>

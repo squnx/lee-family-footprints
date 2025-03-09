@@ -108,7 +108,7 @@ const Story = () => {
               <div className="col-lg-8 mx-auto reflection-item">
                 <img src="/assets/images/our-story/terri-360x360.jpg" className="reflection-img" />
                 <h3>이경아</h3>
-                <h4>딸 (세째)</h4>
+                <h4>딸 (셋째)</h4>
                 <p style={{ wordBreak: 'keep-all' }}>
                   <i className="bi bi-quote quote-icon-left"></i>
                   <span>이경아 님은 따뜻한 마음을 가진 분입니다. 가족을 향한 깊은 애정과 헌신적인 태도로 주변 사람들에게 긍정적인 영향을 주는 존재입니다. 배려심으로 사람들과의 관계를 소중히 여기며, 언제나 밝고 활기찬 에너지를 전달합니다.</span>
@@ -120,10 +120,10 @@ const Story = () => {
               <div className="col-lg-8 mx-auto reflection-item">
                 <img src="/assets/images/our-story/jinah-300x300.jpg" className="reflection-img" />
                 <h3>이진아</h3>
-                <h4>딸 (네째)</h4>
+                <h4>딸 (넷째)</h4>
                 <p style={{ wordBreak: 'keep-all' }}>
                   <i className="bi bi-quote quote-icon-left"></i>
-                  <span>이진아 님은 가족의 막내딸로서 사랑받으며 성장했고, 특유의 섬세함과 따뜻함으로 주변 사람들을 배려합니다. 긍정적인 성격으로 늘 활기찬 분위기를 만들며, 가족과 친구들에게 힘이 되어줍니다.</span>
+                  <span>이진아 님은 가족의 막내딸로서 사랑받으며 성장했고, 밝은 미소와 따뜻함으로 주변 사람들을 배려합니다. 긍정적인 성격으로 늘 활기찬 분위기를 만들며, 가족과 친구들에게 힘이 되어줍니다.</span>
                   <i className="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
