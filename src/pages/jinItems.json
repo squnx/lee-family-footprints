@@ -154,100 +154,100 @@
     "filter": "filter-usa"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-fullerton.gc-01.mp4",
+    "src": "/assets/images/jin/usa/videos/2025.01-fullerton.gc-01.mp4",
     "title": "Swing, Smile, Repeat!",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf",
+    "gallery": "jin-usa",
+    "filter": "filter-usa",
     "type": "video"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-fullerton.gc-02.mp4",
+    "src": "/assets/images/jin/usa/videos/2025.01-fullerton.gc-02.mp4",
     "title": "Practice Makes Par-fect!",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf",
+    "gallery": "jin-usa",
+    "filter": "filter-usa",
     "type": "video"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-fullerton.gc-03.mp4",
+    "src": "/assets/images/jin/usa/videos/2025.01-fullerton.gc-03.mp4",
     "title": "Golf Therapy in Session!",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf",
+    "gallery": "jin-usa",
+    "filter": "filter-usa",
     "type": "video"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-eagle.glen-01.mp4",
+    "src": "/assets/images/jin/usa/videos/2025.01-eagle.glen-01.mp4",
     "title": "Eagle Glen Golf Club",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf",
+    "gallery": "jin-usa",
+    "filter": "filter-usa",
     "type": "video"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-eagle.glen-01.jpg",
+    "src": "/assets/images/jin/usa/2025.01-eagle.glen-01.jpg",
     "title": "Eagle Glen Golf Club",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf"
+    "gallery": "jin-usa",
+    "filter": "filter-usa"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-eagle.glen-02.jpg",
+    "src": "/assets/images/jin/usa/2025.01-eagle.glen-02.jpg",
     "title": "Eagle Glen Golf Club",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf"
+    "gallery": "jin-usa",
+    "filter": "filter-usa"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-eagle.glen-03.jpg",
+    "src": "/assets/images/jin/usa/2025.01-eagle.glen-03.jpg",
     "title": "Eagle Glen Golf Club",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf"
+    "gallery": "jin-usa",
+    "filter": "filter-usa"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-eagle.glen-04.jpg",
+    "src": "/assets/images/jin/usa/2025.01-eagle.glen-04.jpg",
     "title": "Eagle Glen Golf Club",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf"
+    "gallery": "jin-usa",
+    "filter": "filter-usa"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-eagle.glen-05.jpg",
+    "src": "/assets/images/jin/usa/2025.01-eagle.glen-05.jpg",
     "title": "Eagle Glen Golf Club",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf"
+    "gallery": "jin-usa",
+    "filter": "filter-usa"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-eagle.glen-06.jpg",
+    "src": "/assets/images/jin/usa/2025.01-eagle.glen-06.jpg",
     "title": "Eagle Glen Golf Club",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf"
+    "gallery": "jin-usa",
+    "filter": "filter-usa"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-eagle.glen-07.jpg",
+    "src": "/assets/images/jin/usa/2025.01-eagle.glen-07.jpg",
     "title": "Eagle Glen Golf Club",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf"
+    "gallery": "jin-usa",
+    "filter": "filter-usa"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-fullerton.gc-04.mp4",
+    "src": "/assets/images/jin/usa/videos/2025.01-fullerton.gc-04.mp4",
     "title": "Fullerton Golf Course",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf",
+    "gallery": "jin-usa",
+    "filter": "filter-usa",
     "type": "video"
   },
   {
-    "src": "/assets/images/jin/usa/golf/2025.01-hidden.valley-01.jpg",
+    "src": "/assets/images/jin/usa/2025.01-hidden.valley-01.jpg",
     "title": "Hidden Valley Golf Club",
     "description": "January 2025",
-    "gallery": "jin-golf",
-    "filter": "filter-golf"
+    "gallery": "jin-usa",
+    "filter": "filter-usa"
   },
   {
     "src": "https://www.youtube.com/watch?v=U7JHjcTpPO4",
@@ -845,6 +845,13 @@
     "description": "January 2025",
     "gallery": "jin-usa",
     "filter": "filter-usa"
+  },
+  {
+    "src": "/assets/images/activity/instruments/2006.08-piano-01.jpg",
+    "title": "Piano",
+    "description": "August 2006",
+    "gallery": "activity-korea",
+    "filter": "filter-korea"
   },
   {
     "src": "/assets/images/activity/instruments/2006.08-piano-01.jpg",
