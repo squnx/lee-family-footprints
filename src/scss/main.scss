@@ -1347,14 +1347,20 @@ section,
         transform: translate(-50%, -50%);
         /* Adjust for exact center */
         z-index: 2;
-        /* Ensure the logo is above the thumbnail */
-        background: rgba(255, 255, 255, 0.8);
-        /* Semi-transparent white background */
-        border-radius: 4px;
         // padding: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+
+      .youtube-logo::before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: rgba(255, 255, 255);
+        border-radius: 4px;
+        z-index: -1;
       }
 
       .youtube-logo svg {
