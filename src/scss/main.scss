@@ -1231,6 +1231,7 @@ section,
     /* Optional: Adds background color */
     padding: 10px 0 5px !important;
     /* Optional: Adds padding */
+    box-shadow: 5px 0 0px 0px rgb(255, 255, 255), -5px 0 0px 0px rgb(255, 255, 255);
 
     @media (max-width: 1200px) {
       top: 51px;
@@ -1334,6 +1335,32 @@ section,
         transition: all ease-in-out 0.3s;
         z-index: 2;
         opacity: 0;
+      }
+
+      /* YouTube Logo Styles */
+      .youtube-logo {
+        position: absolute;
+        top: 50%;
+        /* Center vertically */
+        left: 50%;
+        /* Center horizontally */
+        transform: translate(-50%, -50%);
+        /* Adjust for exact center */
+        z-index: 2;
+        /* Ensure the logo is above the thumbnail */
+        background: rgba(255, 255, 255, 0.8);
+        /* Semi-transparent white background */
+        border-radius: 4px;
+        // padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .youtube-logo svg {
+        width:64px;
+        /* Adjust size as needed */
+        height: 52px;
       }
 
       .gallery-info {
