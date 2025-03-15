@@ -1400,8 +1400,8 @@ section,
           position: absolute;
           top: 35px;
           left: 35px;
-          border-top: 2px solid var(--hover-effect-1-color);
-          border-left: 2px solid var(--hover-effect-1-color);
+          border-top: 2px solid var(--nav-color);
+          border-left: 2px solid var(--nav-color);
           transition: all 0.5s ease 0s;
           z-index: 9994;
         }
@@ -1414,15 +1414,15 @@ section,
           position: absolute;
           bottom: 35px;
           right: 35px;
-          border-bottom: 2px solid var(--hover-effect-1-color);
-          border-right: 2px solid var(--hover-effect-1-color);
+          border-bottom: 2px solid var(--nav-color);
+          border-right: 2px solid var(--nav-color);
           transition: all 0.5s ease 0s;
           z-index: 9994;
         }
 
         h4 {
           font-size: 20px;
-          color: var(--hover-effect-1-color);
+          color: var(--nav-color);
           font-weight: 600;
           margin-bottom: .5rem;
           padding-right: 0;
@@ -1433,7 +1433,7 @@ section,
         }
 
         p {
-          color: var(--hover-effect-1-color);
+          color: var(--nav-color);
           font-size: 16px;
           padding: 0;
           margin: 0;
@@ -1449,7 +1449,7 @@ section,
         z-index: 4;
 
         a {
-          color: var(--hover-effect-1-color);
+          color: var(--nav-color);
           margin: 4px 8px;
           font-size: 24px;
           display: inline-block;
