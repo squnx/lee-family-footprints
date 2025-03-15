@@ -99,7 +99,7 @@ const Jin = () => {
               <li data-filter=".filter-korea" onClick={() => handleFilterClick('.filter-korea')}>Korea</li>
               <li data-filter=".filter-latin-america" onClick={() => handleFilterClick('.filter-latin-america')}>Latin America</li>
               <li data-filter=".filter-category-1" onClick={() => handleFilterClick('.filter-category-1')}>category 1</li>
-              <li data-filter=".filter-category-2" onClick={() => handleFilterClick('.filter-category-2')}>category 2</li>
+              <li data-filter=".filter-milestones" onClick={() => handleFilterClick('.filter-milestones')}>Milestones</li>
             </ul>
             <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
               {jinItems.map((item, index) => {

@@ -868,10 +868,10 @@
     "filter": "filter-category-1"
   },
   {
-    "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",
-    "title": "Badger Pass",
-    "description": "December 2006",
-    "gallery": "jin-category-2",
-    "filter": "filter-category-2"
+    "src": "/assets/images/jin/milestones/19xx-sungho.jpg",
+    "title": "Found this gem of Sungho",
+    "description": "Timeless Memory",
+    "gallery": "jin-milestones",
+    "filter": "filter-milestones"
   }
 ]
