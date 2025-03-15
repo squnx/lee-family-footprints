@@ -9,7 +9,7 @@ const Story = () => {
       {/* Our Story Section */}
       <section id="story" className="story section">
         <div className="container section-title" data-aos="fade-up">
-          <span className="transparent-20">Our Story</span>
+          <span>Our Story</span>
           <h2>Our Story</h2>
           <p>Our Journey from Then to Now</p>
         </div>
@@ -37,7 +37,7 @@ const Story = () => {
       <section id="reflections" className="reflections section">
         <img src="/assets/images/our-story/bg-reflections.jpg" className="reflections-bg" />
         <div className="container section-title" data-aos="fade-up">
-          <h2>Family Reflections</h2>
+          <h2 className='accent'>Family Reflections</h2>
           <p>Cherishing the moments that define us.</p>
         </div>
         <div className="container" data-aos="fade-up" data-aos-delay="100">
