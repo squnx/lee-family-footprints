@@ -850,28 +850,28 @@
     "src": "/assets/images/activity/instruments/2006.08-piano-01.jpg",
     "title": "Piano",
     "description": "August 2006",
-    "gallery": "activity-korea",
+    "gallery": "jin-korea",
     "filter": "filter-korea"
   },
   {
     "src": "/assets/images/activity/instruments/2006.08-piano-01.jpg",
     "title": "Piano",
     "description": "August 2006",
-    "gallery": "activity-category-1",
+    "gallery": "jin-latin-america",
+    "filter": "filter-latin-america"
+  },
+  {
+    "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",
+    "title": "Badger Pass",
+    "description": "December 2006",
+    "gallery": "jin-category-1",
     "filter": "filter-category-1"
   },
   {
     "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",
     "title": "Badger Pass",
     "description": "December 2006",
-    "gallery": "activity-category-2",
+    "gallery": "jin-category-2",
     "filter": "filter-category-2"
-  },
-  {
-    "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",
-    "title": "Badger Pass",
-    "description": "December 2006",
-    "gallery": "activity-category-3",
-    "filter": "filter-category-3"
   }
 ]
