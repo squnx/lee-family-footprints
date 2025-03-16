@@ -96,10 +96,10 @@ const Grand = () => {
           <div className="isotope-layout" data-default-filter=".filter-memories" data-layout="masonry" data-sort="original-order">
             <ul className="gallery-filters isotope-filters sticky-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter=".filter-memories" onClick={() => handleFilterClick('.filter-memories')} className="filter-active">Memories</li>
-              <li data-filter=".filter-usa" onClick={() => handleFilterClick('.filter-usa')}>USA</li>
+            <li data-filter=".filter-milestones" onClick={() => handleFilterClick('.filter-milestones')}>Milestones</li>
+              <li data-filter=".filter-travels" onClick={() => handleFilterClick('.filter-travels')}>Travels</li>
               <li data-filter=".filter-category-1" onClick={() => handleFilterClick('.filter-category-1')}>category 1</li>
-              <li data-filter=".filter-category-2" onClick={() => handleFilterClick('.filter-category-2')}>category 2</li>
-              <li data-filter=".filter-milestones" onClick={() => handleFilterClick('.filter-milestones')}>Milestones</li>
+              <li data-filter=".filter-video" onClick={() => handleFilterClick('.filter-video')}>Video Clips</li>
             </ul>
             <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
               {grandItems.map((item, index) => {
