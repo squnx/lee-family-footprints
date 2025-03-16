@@ -95,9 +95,10 @@ const Jin = () => {
         <div className="container">
           <div className="isotope-layout" data-default-filter=".filter-usa" data-layout="masonry" data-sort="original-order">
             <ul className="gallery-filters isotope-filters sticky-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter=".filter-latin-america" onClick={() => handleFilterClick('.filter-latin-america')}>Latin America</li>
               <li data-filter=".filter-memories" onClick={() => handleFilterClick('.filter-memories')}>Memories</li>
-              <li data-filter=".filter-latin-america" onClick={() => handleFilterClick('.filter-latin-america')}>Latin America</li>
               <li data-filter=".filter-milestones" onClick={() => handleFilterClick('.filter-milestones')}>Milestones</li>
+              <li data-filter=".filter-siblings" onClick={() => handleFilterClick('.filter-siblings')}>Siblings</li>
               <li data-filter=".filter-usa" onClick={() => handleFilterClick('.filter-usa')} className="filter-active">USA</li>
             </ul>
             <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">

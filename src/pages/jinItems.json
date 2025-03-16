@@ -1,5 +1,12 @@
 [
   {
+    "src": "/assets/images/jin/siblings/2019.02-jin.kim.jpg",
+    "title": "With Kim's family",
+    "description": "February 2019",
+    "gallery": "jin-siblings",
+    "filter": "filter-siblings"
+  },
+  {
     "src": "/assets/images/jin/usa/2024.12-lax-01.jpg",
     "title": "Touchdown in the States!",
     "description": "Decemer 2024",
@@ -859,13 +866,6 @@
     "description": "August 2006",
     "gallery": "jin-latin-america",
     "filter": "filter-latin-america"
-  },
-  {
-    "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",
-    "title": "Badger Pass",
-    "description": "December 2006",
-    "gallery": "jin-category-1",
-    "filter": "filter-category-1"
   },
   {
     "src": "/assets/images/jin/milestones/19xx-sungho.jpg",

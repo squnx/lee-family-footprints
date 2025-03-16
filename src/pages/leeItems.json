@@ -7,6 +7,20 @@
     "filter": "filter-memories"
   },
   {
+    "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",
+    "title": "Badger Pass",
+    "description": "December 2006",
+    "gallery": "lee-milestones",
+    "filter": "filter-milestones"
+  },
+  {
+    "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",
+    "title": "Badger Pass",
+    "description": "December 2006",
+    "gallery": "lee-siblings",
+    "filter": "filter-siblings"
+  },
+  {
     "src": "/assets/images/activity/instruments/2006.08-piano-01.jpg",
     "title": "Piano",
     "description": "August 2006",
@@ -19,12 +33,5 @@
     "description": "December 2006",
     "gallery": "lee-category-2",
     "filter": "filter-category-2"
-  },
-  {
-    "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",
-    "title": "Badger Pass",
-    "description": "December 2006",
-    "gallery": "lee-milestones",
-    "filter": "filter-milestones"
   }
 ]

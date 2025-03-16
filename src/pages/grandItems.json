@@ -1,14 +1,35 @@
 [
   {
-    "src": "/assets/images/grand/milestones/19xx-siblings.jpg",
+    "src": "/assets/images/grand/offspring/19xx-siblings.jpg",
     "title": "A snapshot from the past",
     "description": "Timeless Memory",
-    "gallery": "grand-milestones",
-    "filter": "filter-milestones"
+    "gallery": "grand-offspring",
+    "filter": "filter-offspring"
+  },
+  {
+    "src": "/assets/images/grand/offspring/2008.07-siblings.jpg",
+    "title": "My forever best friend",
+    "description": "July 2008",
+    "gallery": "grand-offspring",
+    "filter": "filter-offspring"
+  },
+  {
+    "src": "/assets/images/grand/memories/2008.07-family.jpg",
+    "title": "Our growing family",
+    "description": "July 2008",
+    "gallery": "grand-memories",
+    "filter": "filter-memories"
   },
   {
     "src": "/assets/images/grand/memories/2018.12-grand.parents.jpg",
     "title": "Love in the spotlight!",
+    "description": "December 2018",
+    "gallery": "grand-memories",
+    "filter": "filter-memories"
+  },
+  {
+    "src": "/assets/images/grand/memories/2018.12-family.jpg",
+    "title": "Ladies' night!",
     "description": "December 2018",
     "gallery": "grand-memories",
     "filter": "filter-memories"
@@ -33,13 +54,6 @@
     "description": "December 2006",
     "gallery": "grand-travels",
     "filter": "filter-travels"
-  },
-  {
-    "src": "/assets/images/activity/instruments/2006.08-piano-01.jpg",
-    "title": "Piano",
-    "description": "August 2006",
-    "gallery": "grand-category-1",
-    "filter": "filter-category-1"
   },
   {
     "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",

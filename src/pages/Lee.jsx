@@ -87,9 +87,9 @@ const Lee = () => {
             <ul className="gallery-filters isotope-filters sticky-filters" data-aos="fade-up" data-aos-delay="100">
               <li data-filter=".filter-memories" onClick={() => handleFilterClick('.filter-memories')} className="filter-active">Memories</li>
               <li data-filter=".filter-milestones" onClick={() => handleFilterClick('.filter-milestones')}>Milestones</li>
+              <li data-filter=".filter-siblings" onClick={() => handleFilterClick('.filter-siblings')}>Siblings</li>
               <li data-filter=".filter-category-1" onClick={() => handleFilterClick('.filter-category-1')}>category 1</li>
               <li data-filter=".filter-category-2" onClick={() => handleFilterClick('.filter-category-2')}>category 2</li>
-              <li data-filter=".filter-category-3" onClick={() => handleFilterClick('.filter-category-3')}>category 3</li>
             </ul>
             <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
               {leeItems.map((item, index) => (

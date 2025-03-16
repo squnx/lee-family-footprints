@@ -1,5 +1,12 @@
 [
   {
+    "src": "/assets/images/kim/siblings/2019.02-jin.kim.jpg",
+    "title": "With Jin's family",
+    "description": "February 2019",
+    "gallery": "kim-siblings",
+    "filter": "filter-siblings"
+  },
+  {
     "src": "/assets/images/kim/memories/2008.07-family.jpg",
     "title": "Happy Family!",
     "description": "July 2008",
@@ -26,12 +33,5 @@
     "description": "December 2006",
     "gallery": "kim-category-2",
     "filter": "filter-category-2"
-  },
-  {
-    "src": "/assets/images/activity/ski/2006.12-yosemite-01.jpg",
-    "title": "Badger Pass",
-    "description": "December 2006",
-    "gallery": "kim-category-3",
-    "filter": "filter-category-3"
   }
 ]
