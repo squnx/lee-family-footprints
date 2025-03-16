@@ -7,13 +7,10 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Story from './pages/Story';
+import Grand from './pages/Grand';
 import Jin from './pages/Jin';
 import Lee from './pages/Lee';
 import Kim from './pages/Kim';
-import America from './pages/America';
-import California from './pages/California';
-import Korea from './pages/Korea';
-import Mexico from './pages/Mexico';
 import Misc from './pages/Misc';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -44,13 +41,11 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/our-story" element={<Story />} />
+            <Route path="/grand-parents" element={<Grand />} />
             <Route path="/jin-family" element={<Jin />} />
             <Route path="/lee-family" element={<Lee />} />
             <Route path="/kim-family" element={<Kim />} />
             {/* <Route path="/america" element={<America />} /> */}
-            <Route path="/california" element={<California />} />
-            <Route path="/korea" element={<Korea />} />
-            <Route path="/mexico" element={<Mexico />} />
             <Route path="/misc" element={<Misc />} />
           </Routes>
         </main>

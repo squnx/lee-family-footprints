@@ -22,6 +22,7 @@ const Header = () => {
           <ul>
             <li><NavLink to="/" activeclassname="active">Home</NavLink></li>
             <li><NavLink to="/our-story" activeclassname="active">Our Story</NavLink></li>
+            <li><NavLink to="/grand-parents" activeclassname="active">Grand Parents</NavLink></li>
             <li><NavLink to="/jin-family" activeclassname="active">Jin</NavLink></li>
             <li><NavLink to="/lee-family" activeclassname="active">Lee</NavLink></li>
             <li><NavLink to="https://songfamily.netlify.app/" activeclassname="active" target="_blank">Song</NavLink></li>  
