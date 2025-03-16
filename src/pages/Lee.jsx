@@ -32,9 +32,9 @@ const Lee = () => {
       },
     });
 
-    // Automatically click the filter button for '.filter-category-1'
+    // Automatically click the filter button for '.filter-memories'
     const clickFilterDefault = () => {
-      const filterDefaultButton = document.querySelector('[data-filter=".filter-category-1"]');
+      const filterDefaultButton = document.querySelector('[data-filter=".filter-memories"]');
       if (filterDefaultButton) {
         filterDefaultButton.click();
       }
@@ -67,7 +67,7 @@ const Lee = () => {
       }, 300); // Adjust delay if needed
     }
   };
-  
+
   const handleImageLoad = () => {
     if (isotopeRef.current) {
       isotopeRef.current.layout();
@@ -85,11 +85,11 @@ const Lee = () => {
         <div className="container">
           <div className="isotope-layout" data-default-filter=".filter-category-1" data-layout="masonry" data-sort="original-order">
             <ul className="gallery-filters isotope-filters sticky-filters" data-aos="fade-up" data-aos-delay="100">
-              <li data-filter=".filter-category-1" onClick={() => handleFilterClick('.filter-category-1')} className="filter-active">category 1</li>
+              <li data-filter=".filter-memories" onClick={() => handleFilterClick('.filter-memories')} className="filter-active">Memories</li>
+              <li data-filter=".filter-milestones" onClick={() => handleFilterClick('.filter-milestones')}>Milestones</li>
+              <li data-filter=".filter-category-1" onClick={() => handleFilterClick('.filter-category-1')}>category 1</li>
               <li data-filter=".filter-category-2" onClick={() => handleFilterClick('.filter-category-2')}>category 2</li>
               <li data-filter=".filter-category-3" onClick={() => handleFilterClick('.filter-category-3')}>category 3</li>
-              <li data-filter=".filter-category-4" onClick={() => handleFilterClick('.filter-category-4')}>category 4</li>
-              <li data-filter=".filter-milestones" onClick={() => handleFilterClick('.filter-milestones')}>Milestones</li>
             </ul>
             <div className="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
               {leeItems.map((item, index) => (
@@ -140,7 +140,7 @@ const Lee = () => {
                       </div>
                     )}
                   </div>
-                  
+
                   {/* Hover effect #2 */}
                   {/* <LazyLoadImage
                     src={item.src}
