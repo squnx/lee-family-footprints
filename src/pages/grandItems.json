@@ -28,6 +28,13 @@
     "filter": "filter-memories"
   },
   {
+    "src": "/assets/images/grand/offspring/2018.12-offspring.jpg",
+    "title": "Family explosion!",
+    "description": "December 2018",
+    "gallery": "grand-offspring",
+    "filter": "filter-offspring"
+  },
+  {
     "src": "/assets/images/grand/memories/2018.12-family.jpg",
     "title": "Ladies' night!",
     "description": "December 2018",
